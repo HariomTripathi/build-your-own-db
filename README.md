@@ -1,2 +1,3 @@
 # build-your-own-db
 A DBMS built from scratch in Python — page-based storage engine, slotted pages, buffer pool with LRU caching, and a B+Tree index. No external DB libraries.
+A relational database management system built from the ground up in Python, as a systems-depth learning project rather than a production tool. It implements the core pieces real databases are built from: a page-based storage engine with slotted-page layout, a buffer pool with LRU eviction and dirty-page tracking, fsync-backed durability, and a B+Tree index for O(log n) lookups. Each phase is deliberately minimal and well-tested, built to make the internals of a database — not just how to use one — genuinely understandable.
